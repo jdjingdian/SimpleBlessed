@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   Launchd.plist
-   SimpleBlessed
-
-   Created by 经典 on 9/1/2023.
-   Copyright (c) 2023 ___ORGANIZATIONNAME___. All rights reserved.
--->
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Label</key>
+	<string>cn.magicdian.SimpleBlessedHelper</string>
+	<key>MachServices</key>
+	<dict>
+		<key>cn.magicdian.SimpleBlessedHelper</key>
+		<true/>
+	</dict>
+</dict>
 </plist>
