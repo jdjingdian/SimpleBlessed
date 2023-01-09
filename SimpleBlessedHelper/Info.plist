@@ -4,8 +4,6 @@
 <dict>
 	<key>CFBundleIdentifier</key>
 	<string>cn.magicdian.SimpleBlessedHelper</string>
-	<key>CFBundleName</key>
-	<string>SimpleBlessedHelper</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>SMAuthorizedClients</key>
