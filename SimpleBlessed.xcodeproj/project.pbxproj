@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3976A32E296BB02400C71D10 /* SimpleBlessedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976A32D296BB02400C71D10 /* SimpleBlessedApp.swift */; };
+		3976A330296BB02400C71D10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976A32F296BB02400C71D10 /* ContentView.swift */; };
+		3976A332296BB02600C71D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3976A331296BB02600C71D10 /* Assets.xcassets */; };
+		3976A335296BB02600C71D10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3976A334296BB02600C71D10 /* Preview Assets.xcassets */; };
+		3976A343296BB0B900C71D10 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976A342296BB0B900C71D10 /* main.swift */; };
+		3976A348296BB17A00C71D10 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3976A347296BB17A00C71D10 /* README.md */; };
+		3976A34A296BB18400C71D10 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3976A349296BB18400C71D10 /* LICENSE */; };
+		3976A34C296BB45000C71D10 /* cn.magicdian.SimpleBlessedHelper in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3976A340296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		3976A353296BB4C900C71D10 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3976A352296BB4C900C71D10 /* Info.plist */; };
+		3976A359296BB5A200C71D10 /* Blessed in Frameworks */ = {isa = PBXBuildFile; productRef = 3976A358296BB5A200C71D10 /* Blessed */; };
+		3976A35C296BB5B100C71D10 /* SecureXPC in Frameworks */ = {isa = PBXBuildFile; productRef = 3976A35B296BB5B100C71D10 /* SecureXPC */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3976A33E296BB0B900C71D10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		3976A34B296BB43300C71D10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LaunchServices;
+			dstSubfolderSpec = 1;
+			files = (
+				3976A34C296BB45000C71D10 /* cn.magicdian.SimpleBlessedHelper in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3976A32A296BB02400C71D10 /* SimpleBlessed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBlessed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3976A32D296BB02400C71D10 /* SimpleBlessedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBlessedApp.swift; sourceTree = "<group>"; };
+		3976A32F296BB02400C71D10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3976A331296BB02600C71D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3976A334296BB02600C71D10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3976A336296BB02600C71D10 /* SimpleBlessed.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleBlessed.entitlements; sourceTree = "<group>"; };
+		3976A340296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cn.magicdian.SimpleBlessedHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		3976A342296BB0B900C71D10 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3976A347296BB17A00C71D10 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3976A349296BB18400C71D10 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3976A350296BB49E00C71D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3976A351296BB4B800C71D10 /* Launchd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Launchd.plist; sourceTree = "<group>"; };
+		3976A352296BB4C900C71D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3976A327296BB02400C71D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3976A359296BB5A200C71D10 /* Blessed in Frameworks */,
+				3976A35C296BB5B100C71D10 /* SecureXPC in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3976A33D296BB0B900C71D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3976A321296BB02400C71D10 = {
+			isa = PBXGroup;
+			children = (
+				3976A347296BB17A00C71D10 /* README.md */,
+				3976A349296BB18400C71D10 /* LICENSE */,
+				3976A32C296BB02400C71D10 /* SimpleBlessed */,
+				3976A341296BB0B900C71D10 /* SimpleBlessedHelper */,
+				3976A32B296BB02400C71D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3976A32B296BB02400C71D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3976A32A296BB02400C71D10 /* SimpleBlessed.app */,
+				3976A340296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3976A32C296BB02400C71D10 /* SimpleBlessed */ = {
+			isa = PBXGroup;
+			children = (
+				3976A32D296BB02400C71D10 /* SimpleBlessedApp.swift */,
+				3976A32F296BB02400C71D10 /* ContentView.swift */,
+				3976A331296BB02600C71D10 /* Assets.xcassets */,
+				3976A336296BB02600C71D10 /* SimpleBlessed.entitlements */,
+				3976A333296BB02600C71D10 /* Preview Content */,
+				3976A352296BB4C900C71D10 /* Info.plist */,
+			);
+			path = SimpleBlessed;
+			sourceTree = "<group>";
+		};
+		3976A333296BB02600C71D10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3976A334296BB02600C71D10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3976A341296BB0B900C71D10 /* SimpleBlessedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				3976A342296BB0B900C71D10 /* main.swift */,
+				3976A350296BB49E00C71D10 /* Info.plist */,
+				3976A351296BB4B800C71D10 /* Launchd.plist */,
+			);
+			path = SimpleBlessedHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3976A329296BB02400C71D10 /* SimpleBlessed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3976A339296BB02600C71D10 /* Build configuration list for PBXNativeTarget "SimpleBlessed" */;
+			buildPhases = (
+				3976A326296BB02400C71D10 /* Sources */,
+				3976A327296BB02400C71D10 /* Frameworks */,
+				3976A328296BB02400C71D10 /* Resources */,
+				3976A34B296BB43300C71D10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBlessed;
+			packageProductDependencies = (
+				3976A358296BB5A200C71D10 /* Blessed */,
+				3976A35B296BB5B100C71D10 /* SecureXPC */,
+			);
+			productName = SimpleBlessed;
+			productReference = 3976A32A296BB02400C71D10 /* SimpleBlessed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3976A33F296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3976A344296BB0B900C71D10 /* Build configuration list for PBXNativeTarget "cn.magicdian.SimpleBlessedHelper" */;
+			buildPhases = (
+				3976A33C296BB0B900C71D10 /* Sources */,
+				3976A33D296BB0B900C71D10 /* Frameworks */,
+				3976A33E296BB0B900C71D10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cn.magicdian.SimpleBlessedHelper;
+			productName = SimpleBlessedHelper;
+			productReference = 3976A340296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3976A322296BB02400C71D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3976A329296BB02400C71D10 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3976A33F296BB0B900C71D10 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 3976A325296BB02400C71D10 /* Build configuration list for PBXProject "SimpleBlessed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3976A321296BB02400C71D10;
+			packageReferences = (
+				3976A357296BB5A200C71D10 /* XCRemoteSwiftPackageReference "Blessed" */,
+				3976A35A296BB5B100C71D10 /* XCRemoteSwiftPackageReference "SecureXPC" */,
+			);
+			productRefGroup = 3976A32B296BB02400C71D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3976A329296BB02400C71D10 /* SimpleBlessed */,
+				3976A33F296BB0B900C71D10 /* cn.magicdian.SimpleBlessedHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3976A328296BB02400C71D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3976A348296BB17A00C71D10 /* README.md in Resources */,
+				3976A335296BB02600C71D10 /* Preview Assets.xcassets in Resources */,
+				3976A34A296BB18400C71D10 /* LICENSE in Resources */,
+				3976A353296BB4C900C71D10 /* Info.plist in Resources */,
+				3976A332296BB02600C71D10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3976A326296BB02400C71D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3976A330296BB02400C71D10 /* ContentView.swift in Sources */,
+				3976A32E296BB02400C71D10 /* SimpleBlessedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3976A33C296BB0B900C71D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3976A343296BB0B900C71D10 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3976A337296BB02600C71D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3976A338296BB02600C71D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3976A33A296BB02600C71D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleBlessed/SimpleBlessed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleBlessed/Preview Content\"";
+				DEVELOPMENT_TEAM = BR63YT2EJJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleBlessed/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.magicdian.SimpleBlessed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3976A33B296BB02600C71D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SimpleBlessed/SimpleBlessed.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleBlessed/Preview Content\"";
+				DEVELOPMENT_TEAM = BR63YT2EJJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleBlessed/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.magicdian.SimpleBlessed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3976A345296BB0B900C71D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR63YT2EJJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleBlessedHelper/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3976A346296BB0B900C71D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BR63YT2EJJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/SimpleBlessedHelper/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3976A325296BB02400C71D10 /* Build configuration list for PBXProject "SimpleBlessed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3976A337296BB02600C71D10 /* Debug */,
+				3976A338296BB02600C71D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3976A339296BB02600C71D10 /* Build configuration list for PBXNativeTarget "SimpleBlessed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3976A33A296BB02600C71D10 /* Debug */,
+				3976A33B296BB02600C71D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3976A344296BB0B900C71D10 /* Build configuration list for PBXNativeTarget "cn.magicdian.SimpleBlessedHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3976A345296BB0B900C71D10 /* Debug */,
+				3976A346296BB0B900C71D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3976A357296BB5A200C71D10 /* XCRemoteSwiftPackageReference "Blessed" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/Blessed";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+		3976A35A296BB5B100C71D10 /* XCRemoteSwiftPackageReference "SecureXPC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/trilemma-dev/SecureXPC";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3976A358296BB5A200C71D10 /* Blessed */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3976A357296BB5A200C71D10 /* XCRemoteSwiftPackageReference "Blessed" */;
+			productName = Blessed;
+		};
+		3976A35B296BB5B100C71D10 /* SecureXPC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3976A35A296BB5B100C71D10 /* XCRemoteSwiftPackageReference "SecureXPC" */;
+			productName = SecureXPC;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3976A322296BB02400C71D10 /* Project object */;
+}
